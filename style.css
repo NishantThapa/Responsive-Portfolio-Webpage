@@ -1,0 +1,149 @@
+		body{
+		margin: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+		}
+		
+		/*Header section  */
+		header{
+			background: linear-gradient(rgba(66, 105, 140,.3),rgba(66, 105, 140,1)),url(3zQDcJ.jpg) no-repeat fixed;
+			position: relative;
+			color: #EFEEE8;
+			text-shadow: 1 0 2;
+		}
+		.header {
+		
+		margin: 0;
+		padding: 60px 0px 10px 0px;
+		text-align: center;
+		
+
+		}
+
+		.header h1 , .header h2 {
+			margin: 0;
+			color: white;
+		}
+
+		.img{
+		
+			max-width: 100%;
+			border-radius: 50%;
+			
+		}
+		
+		.btn1{
+			text-decoration: none;
+			background: #762121;
+			padding: 10px 20px;
+			display: inline-block;
+			color: white;
+			margin-top: 50px;
+			margin-bottom: 0;
+			margin-left: 0;
+			margin-right: 0;
+			
+		
+
+		}
+		.dwn{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+		/*main section */ 
+		main{
+		background: linear-gradient(rgba(93, 158, 29,.8),rgba(93, 158, 29,.5)),url(code-wallpaper-2.jpg) no-repeat fixed;
+		overflow: auto;
+		}
+
+		#wrapper{
+			width: 500px;
+			margin: 0 auto;
+			background-color: #EFEEE8;
+			overflow: auto;
+
+		}
+		
+		.one{
+			
+			
+			padding: 15px;
+		
+			margin: 10px;
+		}
+
+		.btn{
+			
+			padding: 5px;
+		}
+
+		/*footer section */ 
+		footer{
+		background: linear-gradient(rgba(66, 105, 140,.7),rgba(66, 105, 140,1)),url(3zQDcJ.jpg) no-repeat fixed;
+		margin: 0;
+		padding: 5px 0 5px 0px;
+		border: 2px solid #587D8E ;
+		text-align: center;
+		color: #EFEEE8;
+		}
+
+		a{
+		color:#EFEEE8;
+		margin: 5px;
+		padding: 10px;
+		display: inline-block;
+		}
+			
+		a:hover{
+		color: #E8E61A;
+		text-decoration: none;
+		}
+footer h2 , footer p {
+	margin: 0;
+
+}
+
+.nav{
+	text-align: center;
+	background-color: #252121;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+
+
+
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.nav a:hover{
+	color: #C0D850;
+}
+
+
+/* media queries */
+@media(min-width: 371px) {
+	.nis{
+		
+		border-radius: 50%;
+	}
+	
+}
+
+@media(max-width: 370px) {
+	.nis{
+		width: 120px;
+		
+		padding-top: 45px;
+	}
+
+
+	
+}
+		
+		
